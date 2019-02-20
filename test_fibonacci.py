@@ -8,7 +8,7 @@ from hypothesis.strategies import integers
 @settings(verbosity=Verbosity.verbose)
 @given(integers(min_value=0, max_value=100))
 def test_fibonacci(number):
-    assert False
+    assert fibonacci(number) + fibonacci(number + 1) == fibonacci(number + 2)
 
 # An alternative for given: 
 # @given(integers().filter(lambda x: x >= 0 and x <= 100))
