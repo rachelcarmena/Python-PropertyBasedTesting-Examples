@@ -63,7 +63,7 @@ There is a branch with a possible solution for each one: `[branch]-solved`.
 Start with `scaffolding` branch and follow the next steps:
 
 1. TDD workflow for sum operation, Fibonacci series and common operations with collections (append an element, remove an element, concatenation, removing duplications)
-2. Additional final refactor step: improve the testing code when trying to look for properties.
+2. Additional final refactor step: improve the testing code when specifying properties.
 
 ## Further reading
 
