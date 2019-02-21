@@ -44,9 +44,7 @@ pytest test_[example].py -v -s
 
 ## How to play
 
-Depending on your goal.
-
-### Knowing Hypothesis library to define properties for our tests
+### Knowing Hypothesis library to define properties in tests
 
 Branches:
 
@@ -57,6 +55,8 @@ Branches:
 You have the production code and you only have to add the test code. 
 
 There is a branch with a possible solution for each one: `[branch]-solved`.
+
+[Know more about Hypothesis library](https://hypothesis.readthedocs.io/en/latest/index.html).
 
 ### Knowing the real magic of property-based testing
 
